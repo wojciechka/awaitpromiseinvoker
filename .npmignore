@@ -1,0 +1,9 @@
+node_modules
+*.tgz
+test/
+index.ts
+tsconfig.json
+tslint.json
+typings.json
+typings
+.npmignore

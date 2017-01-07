@@ -1,0 +1,25 @@
+{
+  "name": "awaitpromiseinvoker",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "tsc"
+  },
+  "devDependencies": {
+    "@types/chai": "^3.4.34",
+    "@types/mocha": "^2.2.35",
+    "@types/node": "^6.0.58",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "tslint": "^4.3.1",
+    "typescript": "^2.1.4"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Wojciech Kocjan <wojciech@kocjan.org>",
+  "license": "MIT"
+}

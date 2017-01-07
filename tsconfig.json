@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es6",
+        "noImplicitAny": false,
+        "sourceMap": false,
+        "declaration": true
+    },
+    "compileonSave": true,
+    "filesGlob": [
+        "**/*.ts",
+        "!**/*.d.ts",
+        "!node_modules/**",
+        "!typings/**",
+        "!lib/**"
+    ],
+    "atom": {
+        "rewriteTsconfig": true
+    },
+    "files": [
+        "index.ts",
+        "test/awaitpromiseinvoker.ts",
+        "test/helpers.ts"
+    ]
+}
